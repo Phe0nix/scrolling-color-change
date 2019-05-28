@@ -2,6 +2,7 @@ var wall = document.querySelector('.first'),
     heading = document.querySelector('h1');
 
 window.onscroll = function(){
+    console.log(wall);
   if(this.pageYOffset < 350 && wall.classList.contains('.first')){
     wall.classList.add('mdnghtblue');
     wall.classList.remove('purple');
