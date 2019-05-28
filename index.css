@@ -1,6 +1,8 @@
+body{
+  margin: 0;
+}
 .first{
   height: 1500px;
-  border: 1px solid;
 }
 .first h1{
   position: fixed;
